@@ -11,8 +11,8 @@ Complete URL: http://52.4.6.31
 
 1. Create an Ubuntu machine on Amazon Lightsail (https://lightsail.aws.amazon.com)
 Get the following data after configuring the instance:
-* <IP-ADDRESS> : the public IP of the instance
-* <PATH-TO-KEY-FROM-LIGHTSAIL> : The path to the amazon lightsail instance private key.
+* <<IP-ADDRESS>> : the public IP of the instance
+* <<PATH-TO-KEY-FROM-LIGHTSAIL>> : The path to the amazon lightsail instance private key.
 Set a pair of keys (public, private) on the server (Lightsail) and download the private key (PK). Change the access permission of the PK running the following:
 ```
 $ chmod 400 <PATH-TO-KEY-FROM-LIGHTSAIL>
