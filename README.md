@@ -23,7 +23,7 @@ $ chmod 400 <PATH-TO-KEY-FROM-LIGHTSAIL>
 Access the machine with ssh:
 
 ```
-$ ssh ubuntu@\<IP-ADDRESS> -p 22 -i <PATH-TO-KEY-FROM-LIGHTSAIL>
+$ ssh ubuntu@<IP-ADDRESS> -p 22 -i <PATH-TO-KEY-FROM-LIGHTSAIL>
 ```
 
 ### Securing the System
