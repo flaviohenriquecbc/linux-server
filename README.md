@@ -48,7 +48,7 @@ PasswordAuthentication no
 ```
 restart the ssh service
 ```
-sudo service ssh restart
+$ sudo service ssh restart
 ```
 
 5. Configure the Uncomplicated Firewall (UFW) to only allow incoming connections for SSH (port 2200), HTTP (port 80), and NTP (port 123).
@@ -113,14 +113,14 @@ $ chmod 600 /home/grader/.ssh/authorized_keys
 9. Configure the local timezone to UTC.
 Configure the time zone:
 ```
-sudo dpkg-reconfigure tzdata
+$ sudo dpkg-reconfigure tzdata
 ```
 Choose the option 'None of the Above' and then select UTC.
 
 10. Install and configure Apache to serve a Python mod_wsgi application.
 ```
-sudo apt-get install apache2
-sudo apt-get install libapache2-mod-wsgi
+$ sudo apt-get install apache2
+$ sudo apt-get install libapache2-mod-wsgi
 ```
 
 11. Install and configure PostgreSQL:
@@ -151,7 +151,7 @@ $ sudo apt-get install git
 
 13. Clone and setup your Item Catalog project from the Github repository you created earlier in this Nanodegree program.
 ```
-git clone https://github.com/flaviohenriquecbc/item-catalog-vagrant-virtualbox-sqlite.git
+$ git clone https://github.com/flaviohenriquecbc/item-catalog-vagrant-virtualbox-sqlite.git
 ```
 
 Open project.py and database_setup.py and replace the the create_engine for:
