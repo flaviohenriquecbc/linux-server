@@ -15,7 +15,7 @@ Get the following data after configuring the instance:
 * \<PATH-TO-KEY-FROM-LIGHTSAIL> : The path to the amazon lightsail instance private key.
 Set a pair of keys (public, private) on the server (Lightsail) and download the private key (PK). Change the access permission of the PK running the following:
 ```
-$ chmod 400 \<PATH-TO-KEY-FROM-LIGHTSAIL>
+$ chmod 400 <PATH-TO-KEY-FROM-LIGHTSAIL>
 ``` 
 
 2. Follow the instructions provided to SSH into your server.
@@ -23,7 +23,7 @@ $ chmod 400 \<PATH-TO-KEY-FROM-LIGHTSAIL>
 Access the machine with ssh:
 
 ```
-$ ssh ubuntu@\<IP-ADDRESS> -p 22 -i \<PATH-TO-KEY-FROM-LIGHTSAIL>
+$ ssh ubuntu@\<IP-ADDRESS> -p 22 -i <PATH-TO-KEY-FROM-LIGHTSAIL>
 ```
 
 ### Securing the System
