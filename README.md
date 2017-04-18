@@ -3,9 +3,11 @@
 Linux Server project for Udacity Full Stack Nanodegree
 
 ## My current values of LightSail instance
-Public IP: 52.4.6.31
-SSH Port: 2200
-Complete URL: http://52.4.6.31
+Public IP: ~~52.4.6.31~~
+
+SSH Port: ~~2200~~
+
+Complete URL: ~~http://52.4.6.31~~
 
 ### Steps of configuration
 
