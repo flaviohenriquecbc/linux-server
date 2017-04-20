@@ -198,3 +198,4 @@ $ sudo apache2ctl restart
 ```
 
 Tadaa! You have the item catalog working on http://\<IP-ADDRESS>
+
