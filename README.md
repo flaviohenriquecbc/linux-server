@@ -94,7 +94,8 @@ grader ALL=(ALL) NOPASSWD:ALL
 Create the following directories:
 ```
 $ mkdir /home/grader/.ssh
-$ mkdir /home/grader/.ssh/authorized_keys
+// create authorized_keys file
+$ nano /home/grader/.ssh/authorized_keys
 $ chown grader /home/grader/.ssh
 $ chown grader /home/grader/.ssh/authorized_keys
 ```
